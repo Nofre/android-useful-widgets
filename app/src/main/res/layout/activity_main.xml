@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nofre.android_useful_widgets_app_example.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HorizontalColorPicker"/>
+
+    <com.nofre.android_useful_widgets.HorizontalColorPicker
+        android:id="@+id/horizontal_color_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:radius="12dp"
+        app:borderWidth="4dp"
+        app:margin="4dp"
+        app:borderColorSelected="#FF967952"
+        app:borderColorUnselected="#FF333333" />
+
+    <View
+        android:id="@+id/color1"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GridColorPicker"/>
+
+    <com.nofre.android_useful_widgets.GridColorPicker
+        android:id="@+id/grid_color_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:radius="16dp"
+        app:borderWidth="4dp"
+        app:margin="4dp"
+        app:borderColorSelected="#FF967952"
+        app:borderColorUnselected="#FF333333"
+        app:rows="3"
+        app:columns="3"/>
+
+    <View
+        android:id="@+id/color2"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

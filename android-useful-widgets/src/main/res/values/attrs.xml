@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ColorPicker">
+        <attr name="radius" format="dimension" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="borderColorUnselected" format="color" />
+        <attr name="borderColorSelected" format="color" />
+        <attr name="margin" format="dimension" />
+        <attr name="rows" format="integer" />
+        <attr name="columns" format="integer" />
+    </declare-styleable>
+</resources>
